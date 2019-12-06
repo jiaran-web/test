@@ -1,0 +1,368 @@
+.top{
+	width: 1920px;
+	height: 1300px;
+	background: url(../images/bg2.jpg) no-repeat 0 0;
+	margin: 0 auto;
+}
+.header{
+	height: 106px;
+	border-bottom: 5px #ee004e solid;
+	background: #fff;
+}
+.header-top{
+	height: 69px;
+	border-bottom: 1px #f7bcc9 solid;
+}
+.sreach{
+	float: right;
+	width: 391px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 19px;
+	border: 2px #e11c57 solid;
+	border-radius: 3px;
+}
+.input1{
+	float: right;
+	width: 77px;
+	height: 26px;
+	line-height: 26px;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	background: url(../images/bg3.jpg) repeat-x;
+}
+.input2{
+	float: right;
+	width: 283px;
+	height: 14px;
+	margin-top: 6px;
+	line-height: 14px;
+	border: 0;
+}
+.header-bottom-input1{
+	float: left;
+	width: 54px;
+	font-size:14px;
+	height: 36px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #ee004e;
+	text-align: center;
+	background: #fff;
+	border: 0;
+}
+.header-bottom a:hover{
+	background: #ee004e;
+	color: #fff;
+}
+.header-bottom-input2{
+	float: left;
+	width: 68px;
+	font-size:14px;
+	height: 36px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #ee004e;
+	background: #fff;
+	border: 0;
+	text-align: center;
+}
+.header-bottom-input3{
+	float: left;
+	width: 82px;
+	font-size:14px;
+	height: 36px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #ee004e;
+	background: #fff;
+	border: 0;
+	text-align: center;
+}
+.header-bottom-input4{
+	float: left;
+	width: 78px;
+	font-size:14px;
+	height: 36px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #ee004e;
+	background: #fff;
+	border: 0;
+	text-align: center;
+}
+.header-bottom-input5{
+	float: right;
+	width: 50px;
+	font-size:12px;
+	height: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	border: 0;
+	color: #ee004e;
+	background: #fff;
+	text-align: center;
+}
+.header-bottom-input6{
+	float: right;
+	width: 64px;
+	font-size:12px;
+	height: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	border: 0;
+	color: #ee004e;
+	background: #fff;
+	text-align: center;
+}
+.header-bottom-input7{
+	float: right;
+	width: 78px;
+	font-size:12px;
+	height: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #ee004e;
+	background: #fff;
+	border: 0;
+	text-align: center;
+}
+.button{
+	height: 100px;
+	margin-left: 566px;
+	margin-top: 357px;
+}
+.button1{
+	float: left;
+	display: block;
+	background: url(../images/bg4.jpg) no-repeat;
+	padding-left: 11px;
+	width: 128px;
+	color: #f3e5a6;
+	font-weight: bold;
+	font-size: 23px;
+	height: 37px;
+}
+.button2{
+	float: left;
+	margin-left: 8px;
+	display: block;
+	background: url(../images/bg5.jpg) no-repeat;
+	padding-left: 11px;
+	width: 153px;
+	color: #f3e5a6;
+	font-size: 23px;
+	height: 37px;
+}
+.button a:hover{ color: #f3e5a6;}
+.mov-main{ 
+	position:relative; 
+	width:100%; height:737px;
+}
+.mov-paly{ 
+	position:absolute; 
+	top:143px; left:290px; 
+	width:447px; 
+	height:270px;
+}
+.mov-left{ 
+	position:absolute; 
+	width:160px; 
+	padding-left:8px; 
+	height:204px; 
+	background:url(../images/bg6.png) no-repeat;
+}
+.mov-right{ 
+	position:absolute; 
+	background:url(../images/bg7.png) no-repeat; 
+	height:214px; 
+	padding-left:22px; 
+	width:146px;
+}
+.mov-left h3,.mov-right h3{ 
+	margin-top:13px; 
+	height:28px; 
+	line-height:28px; 
+	width:100%; 
+	font-size:20px;
+}
+.mov-left p,.mov-left dl,.mov-right p,.mov-right dl{ 
+	line-height:21px; 
+	width:135px; 
+	font-weight:bold;
+}
+.mov-left dt,.mov-right dt{ 
+	color:#b70000;
+}
+.mov-left a,.mov-right a{ 
+	display:block; 
+	width:68px;
+	height:24px; 
+	line-height:24px; 
+	text-align:center; 
+	background:#b19348; 
+	color:#fff; 
+	margin-top:12px;
+}
+.mov-main .mov-left:hover,.mov-main .mov-right:hover{ 
+	z-index: 99;
+}
+.mov-2 a{ 
+	margin-top:4px;
+}
+.mov-4 a{ 
+	margin-top:5px;
+}
+.mov-4 dl{ 
+	width:128px;
+}
+.mov-1{ 
+	top:56px; 
+	left:-16px; 
+	z-index:3;
+}
+.mov-2{ 
+	top:247px; 
+	left:56px; 
+	z-index:5;
+}
+.mov-3{ 
+	bottom:155px; 
+	left:42px; 
+	z-index:3;
+}
+.mov-4{ 
+	bottom:108px; 
+	left:280px; 
+	z-index:3;
+}
+.mov-5{ 
+	height:204px; 
+	background:url(../images/bg7.png) no-repeat; 
+	right:-40px; top:45px;
+}
+.mov-5 a{ 
+	margin-top:5px;
+}
+.mov-6{ 
+	top:252px; 
+	right:-24px;
+}
+.mov-6 a{ 
+	margin-top:11px;
+}
+.mov-7{ 
+	right:79px; 
+	bottom:130px;
+}
+.mov-7 a{ 
+	margin-top:10px;
+}
+.bottom{
+	width: 1920px;
+	height: 1018px;
+	background: url(../images/bg8.jpg) no-repeat 0 0;
+	margin: 0 auto;
+}
+.bottom-1{
+	height: 352px;
+}
+.movie-in-left{
+	width: 464px;
+	height: 327px;
+	float: left;
+	margin: 11px 0 0 14px;
+	overflow: hidden;
+
+}
+.movie-in-left p{
+	width: 432px;
+	height: 76px;
+	background: url(../images/bg9.png) no-repeat 0 0;
+	font-size: 13px;
+	color: #eabc70;
+	margin-top: -87px;
+	position: absolute; 
+	line-height:20px; 
+	padding:11px 21px 0 12px; 
+	font-weight:bold;
+	z-index: 2;
+}
+.movie-in-left a:hover img{ 
+	width: 460px; 
+	height: 324px;
+}
+.movie-in-right{ 
+	float:right; 
+	margin:10px 8px 0 0; 
+	width:480px; 
+	height:auto; 
+	display:inline;
+}
+.movie-in-right li{ 
+	float:left; 
+	width:156px; 
+	height:162px; 
+	margin:3px 4px 0 0; 
+	overflow:hidden;
+}
+.movie-in-right a:hover{ 
+	display:block; 
+	width:152px; 
+	height:158px; 
+	border:#ffe5b6 2px solid; 
+	overflow:hidden;
+}
+.movie-in-right a:hover img{ 
+	width:152px; 
+	height:158px;
+}
+.img-change img{ 
+	transition: transform 0.5s; 
+}
+.img-change:hover img{ 
+	transform: scale(1.1);
+}
+.bottom-2{
+	margin-top: 60px;
+	width:100%; 
+	height:604px;
+}
+.movie-other-left{ 
+	float:left; 
+	width:478px; 
+	height:544px; 
+}
+.movie-other-right{ 
+	float:right; 
+	width:478px; 
+	height:544px;
+	margin-right:2px; 
+	display:inline;
+}
+.movie-other-list{ 
+	width:438px; 
+	height:auto; 
+	margin-left:28px;
+}
+.movie-other-list li{ 
+	float:left; 
+	width:128px; 
+	height:227px; 
+	margin:9px 18px 0 0; 
+	display:inline;
+}
+.movie-other-text{ 
+	display:block; 
+	width:100%; 
+	height:44px; 
+	line-height:44px; 
+	text-align:center; 
+	font-size:15px; 
+	font-weight:bold;
+}
+.movie-other-text a{
+	color: #000;
+}
+.movie-other-right .movie-other-list{ margin-left:30px;}
